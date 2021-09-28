@@ -70,3 +70,8 @@ button:focus {
 .custom-class-name {
   color: #f00;
 }
+
+.app {
+  display: flex;
+  flex-direction: column;
+}

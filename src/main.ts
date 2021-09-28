@@ -1,5 +1,5 @@
 /* Make sure to export all custom elements for public use. */
 
-import CustomElement from "./CustomElement.svelte";
+import CryptoWalletWidget from "./CryptoWalletWidget.svelte";
 
-export { CustomElement };
+export { CryptoWalletWidget };

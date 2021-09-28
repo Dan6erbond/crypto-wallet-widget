@@ -13,13 +13,20 @@
   </head>
 
   <body>
-    <my-custom-element>
-
-    <!-- We can listen to events with a little Javascript. -->
-    <script>
-      document.querySelector("my-custom-element").addEventListener("custom-click", function (e) {
-        alert('Clicked!');
-      });
-    </script>
+    <div class="app">
+      <crypto-wallet-widget
+        wallet-address="cosmos1e4rz6y3ah89qfltgcftu3ry89xryn60ztf5ken"
+      ></crypto-wallet-widget>
+      <crypto-wallet-widget
+        wallet-address="cosmos1e4rz6y3ah89qfltgcftu3ry89xryn60ztf5ken"
+        icon="https://assets.coingecko.com/coins/images/1481/large/cosmos_hub.png?1555657960"
+      ></crypto-wallet-widget>
+      <crypto-wallet-widget
+        wallet-address="cosmos1e4rz6y3ah89qfltgcftu3ry89xryn60ztf5ken"
+        icon="https://assets.coingecko.com/coins/images/1481/large/cosmos_hub.png?1555657960"
+        qr-code-logo-image="https://s2.coinmarketcap.com/static/img/coins/64x64/3794.png"
+        currency="ATOM"
+      ></crypto-wallet-widget>
+    </div>
   </body>
 </html>
